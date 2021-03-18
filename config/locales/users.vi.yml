@@ -1,0 +1,6 @@
+vi:
+  create_my_account: "Tạo Tài Khoản"
+  message_register_success: "Đăng ký thành công"
+  message_register_error: "Đăng ký thất bại"
+  danger_login: "Email hoặc mật khẩu không đúng"
+  remember: "Nhớ tài khoản"

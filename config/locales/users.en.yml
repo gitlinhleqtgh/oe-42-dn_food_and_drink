@@ -1,0 +1,6 @@
+en:
+  create_my_account: "Create Account"
+  message_register_success: "Register success"
+  message_register_error: "Register failed"
+  danger_login: "Email or password not match"
+  remember: "Remember"
