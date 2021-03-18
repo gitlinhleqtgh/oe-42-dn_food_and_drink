@@ -19,7 +19,7 @@ end
 group :development do
   gem "listen", "~> 3.3"
   gem "rack-mini-profiler", "~> 2.0"
-  gem "rspec-rails", "~> 5.0"
+  gem "rspec-rails", "~> 4.0.1"
   gem "rubocop", "~> 0.74.0", require: false
   gem "rubocop-checkstyle_formatter", require: false
   gem "rubocop-rails", "~> 2.3.2", require: false
