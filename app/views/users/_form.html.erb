@@ -1,0 +1,29 @@
+<%= form_for(@user, url: signup_path) do |f| %>
+<div id="login-box">
+  <div class="left">
+    <h1><%= yield(:page_name) %></h1>
+    <%= f.label :name %>
+    <%= f.text_field :name, type: "text" %>
+    <%= f.label :email %>
+    <%= f.email_field :email, type: "text" %>
+    <%= f.label :phone %>
+    <%= f.text_field :phone, type: "text" %>
+    <%= f.label :address %>
+    <%= f.text_field :address, type: "text" %>
+    <%= f.label :password %>
+    <%= f.password_field :password, type: "password" %>
+    <%= f.label :password_confirmation %>
+    <%= f.password_field :password_confirmation, type: "password" %>
+
+    <%= f.submit yield(:button_text), class: "btn btn-primary", type: "submit" %>
+  </div>
+  <div class="right">
+    <button class="social-signin facebook"><%= t "login_facebook" %></button>
+    <button class="social-signin twitter"><%= t "login_twiter" %></button>
+    <button class="social-signin google"><%= t "login_google" %></button>
+  </div>
+  <div class="or">
+    <%= render "shared/error_messages", object: @user %>
+  </div>
+</div>
+<% end %>

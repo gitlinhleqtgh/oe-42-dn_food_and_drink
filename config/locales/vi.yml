@@ -1,0 +1,16 @@
+vi:
+  signup: "Đăng ký"
+  login: "Đăng Nhập"
+  login_facebook: "Đăng Nhập Bằng facebook"
+  login_twiter: "Đăng Nhập Bằng Twiter"
+  login_google: "Đăng Nhập Bằng Google+"
+  count_err:
+    one: "%{count} lỗi"
+    other: "%{count} lỗi"
+  profile: "Thông tin"
+  setting: "Cài đặt"
+  log_out: "Đăng xuất"
+  account: "Tài khoản"
+  home: "Trang Chủ"
+  cart: "Giỏ hàng"
+  menu: "Danh Sách Món"
