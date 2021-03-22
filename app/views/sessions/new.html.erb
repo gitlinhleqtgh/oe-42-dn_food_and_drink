@@ -1,0 +1,21 @@
+<%= form_for(:session, url: login_path) do |f| %>
+<div id="login-box">
+  <div class="left">
+    <h1><%= t "login" %></h1>
+    <%= f.label :email %>
+    <%= f.email_field :email, type: "text" %>
+    <%= f.label :password %>
+    <%= f.password_field :password, type: "password" %>
+
+    <%= f.submit t("login"), class: "btn btn-primary", type: "submit" %>
+    <p><%= t ("new_user?") %> -> <%= link_to t("signup"), signup_path %></p>
+  </div>
+  <div class="right">
+    <button class="social-signin facebook"><%= t "login_facebook" %></button>
+    <button class="social-signin twitter"><%= t "login_twiter" %></button>
+    <button class="social-signin google"><%= t "login_google" %></button>
+  </div>
+  <div class="or">
+  </div>
+</div>
+<% end %>
