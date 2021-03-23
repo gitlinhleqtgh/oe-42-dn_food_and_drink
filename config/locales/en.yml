@@ -15,3 +15,10 @@ en:
   cart: "Cart"
   menu: "Menu"
   new_user?: "New account?"
+  
+  category:
+    add_cate: "Add new categories"
+    create_cate: "Add category"
+    name_cate: "Name category"
+    add_cate_success: "Add category success"
+    add_cate_fail: "Add category fail"

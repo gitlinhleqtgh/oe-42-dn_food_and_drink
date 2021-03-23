@@ -15,3 +15,10 @@ vi:
   cart: "Giỏ hàng"
   menu: "Danh Sách Món"
   new_user?: "Tạo tài khoản mới?"
+
+  category:
+    add_cate: "Thêm danh mục mới"
+    create_cate: "Thêm danh mục"
+    name_cate: "Tên danh mục "
+    add_cate_success: "Thêm danh mục thành công"
+    add_cate_fail: "Thêm danh mục không thành công"
